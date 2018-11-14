@@ -1,0 +1,13 @@
+
+<ol>
+
+
+  <li ng-repeat="item in fdirctrl.foundItems">
+
+     Item name is   {{item.name}} and description is {{item.description}}
+
+     <button ng-click="fdirctrl.onRemove({index:$index});">remove item</button>
+   </li>
+
+
+</ol>
